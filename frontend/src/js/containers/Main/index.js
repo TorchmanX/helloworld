@@ -5,7 +5,7 @@ import Header from '../Core/Header';
 import Nav from '../Core/Nav';
 import Footer from '../Core/Footer';
 
-export default class Map extends React.Component {
+export default class Main extends React.Component {
   constructor() {
     super();
   }
