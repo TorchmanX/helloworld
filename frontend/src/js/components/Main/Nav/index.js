@@ -2,12 +2,13 @@ import React from "react";
 
 export default class Nav extends React.Component {
   render() {
+    const cube_icon = '\uf1b2';
     return (
       <nav class="narrow container">
         <div class="ts icon menu">
           <button class="ts circular large icon button">
             <a href="profile.html">
-              <i class="Cube icon"></i>
+              <i class="Cube icon">{cube_icon}</i>
             </a>
           </button>
           <button class="ts circular large icon button">

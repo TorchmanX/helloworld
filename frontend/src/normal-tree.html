@@ -17,6 +17,9 @@
       height: 260px;
       width: 320px;
     }
+    .esri-ui-top-left {
+      display: none;
+    }
   </style>
 
   <script>
@@ -105,7 +108,11 @@
         var map = new Map({
           basemap: "osm",
           ground: "world-elevation",
-          layers: [treesLayer]
+          layers: [treesLayer],
+          constraints:{
+            rotationEnabled: false,
+
+          }
         });
 
         var view = new SceneView({
