@@ -2,6 +2,7 @@ import React from 'react';
 import { Router, Route, Redirect, Link } from 'react-router-dom';
 import createBrowserHistory from 'history/createBrowserHistory';
 
+import Analysis from './Analysis';
 import Donation from './Donation';
 import Edit from './Edit';
 import Followed from './Followed';
@@ -18,6 +19,7 @@ const routes = (
   <Router history={history}>
     <div>
       <Redirect from="/" to="/main" />
+      <Route path="/analysis" component={Analysis}/>
       <Route path="/donation" component={Donation}/>
       <Route path="/edit" component={Edit}/>
       <Route path="/followed" component={Followed}/>

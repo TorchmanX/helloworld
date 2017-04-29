@@ -8,15 +8,19 @@ export default class Sample extends React.Component {
       <div class="ts three cards">
         <div class="ts card">
           <div class="image">
-            <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            <Link to="/analysis">
+              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            </Link>
           </div>
           <div class="content">
             <a class="description">Karen</a>
           </div>
         </div>
-        <div class="ts doubling card">
+        <div class="ts card">
           <div class="image">
-            <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            <Link to="/analysis">
+              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            </Link>
           </div>
           <div class="content">
             <a class="description">Caris</a>
@@ -24,7 +28,9 @@ export default class Sample extends React.Component {
         </div>
         <div class="ts card">
           <div class="image">
-            <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            <Link to="/analysis">
+              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            </Link>
           </div>
           <div class="content">
             <a class="description">erium</a>
@@ -32,7 +38,9 @@ export default class Sample extends React.Component {
         </div>
         <div class="ts card">
           <div class="image">
-            <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            <Link to="/analysis">
+              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            </Link>
           </div>
           <div class="content">
             <a class="description">Natsuki</a>
@@ -40,7 +48,9 @@ export default class Sample extends React.Component {
         </div>
         <div class="ts card">
           <div class="image">
-            <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            <Link to="/analysis">
+              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            </Link>
           </div>
           <div class="content">
             <a class="description">Avane</a>
@@ -48,7 +58,9 @@ export default class Sample extends React.Component {
         </div>
         <div class="ts card">
           <div class="image">
-            <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            <Link to="/analysis">
+              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            </Link>
           </div>
           <div class="content">
             <a class="description">Eneko</a>
@@ -56,7 +68,9 @@ export default class Sample extends React.Component {
         </div>
         <div class="ts card">
           <div class="image">
-            <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            <Link to="/analysis">
+              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            </Link>
           </div>
           <div class="content">
             <a class="description">Iknore</a>
@@ -64,7 +78,9 @@ export default class Sample extends React.Component {
         </div>
         <div class="ts card">
           <div class="image">
-            <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            <Link to="/analysis">
+              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            </Link>
           </div>
           <div class="content">
             <a class="description">Aira</a>
