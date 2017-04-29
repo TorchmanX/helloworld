@@ -14,12 +14,11 @@
     #viewDiv {
       padding: 0;
       margin: 0;
-      height: 260px;
-      width: 360px;
-      overflow: hidden;
+      height: 100%;
+      width: 100%;
     }
     #back{
-      background-image: url("img/back.png");
+      background-image: url("img/bad-back.png");
       background-repeat: no-repeat;
       background-size: 80% auto;
       bottom: 5%;
@@ -88,15 +87,11 @@
             stops: [
               {
                 value: 0,
-                color: "#f7fcb9"
+                color: "#CCC7BC"
               }, // features with zero carbon
               {
-                value: 9500,
-                color: "#31a354"
-              },
-              {
                 value: 10000,
-                color: "#E21C1C"
+                color: "#191919"
               } // features with 800 carbon
             ],
             legendOptions: {
@@ -118,20 +113,16 @@
         });
 
         var map = new Map({
-          basemap: "osm",
+          basemap: "dark-gray",
           ground: "world-elevation",
-          layers: [treesLayer],
-          constraints:{
-            rotationEnabled: false,
-
-          }
+          layers: [treesLayer]
         });
 
         var view = new SceneView({
           container: "viewDiv",
           map: map,
           camera: {
-            position: {
+            position: {  
               x: -9177092.780437881,
               y: 4247005.328710771,
               z: 716.0267045777291,
@@ -156,6 +147,16 @@
             }
           }
         });
+        
+          // listen for key-down events on the view
+  view.on("key-down", function(event) {
+    var camera = view.camera.clone();
+    // if the user clicked the d key
+    if (event.key === "d") {
+      console.log(camera.position.x,camera.position.y, camera.position.z);
+    }
+  });
+        
 
       });
   </script>
