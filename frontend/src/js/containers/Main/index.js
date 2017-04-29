@@ -15,6 +15,7 @@ export default class Main extends React.Component {
       <div>
         <Header />
         <Nav />
+        <iframe src="normal-tree.html" frameborder="0" width="320" height="260"/>
         <Footer />
       </div>
     );

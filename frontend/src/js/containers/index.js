@@ -2,7 +2,7 @@ import React from 'react';
 import { Router, Route, Redirect, Link } from 'react-router-dom';
 import createBrowserHistory from 'history/createBrowserHistory';
 
-import Game from './Main';
+import Main from './Main';
 
 const history = createBrowserHistory()
 
