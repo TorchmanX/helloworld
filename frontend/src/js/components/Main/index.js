@@ -17,6 +17,7 @@ export default class Main extends React.Component {
         <Nav />
         <div class="ts fitted hidden divider"></div>
         <iframe src="normal-tree.html" frameborder="0" width="320" height="260"/>
+        <iframe src="bad-tree.html" frameborder="0" width="320" height="260"/>
         <Footer />
       </div>
     );
