@@ -1,23 +1,16 @@
-import React from "react";
-import { connect } from "react-redux";
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-import Header from '../Core/Header';
-import Nav from '../Core/Nav';
-import Footer from '../Core/Footer';
+import Main from '../../components/Main';
 
-export default class Main extends React.Component {
-  constructor() {
-    super();
+const mapStateToProps = (state) => {
+  return {
   }
+};
 
-  render() {
-    return (
-      <div>
-        <Header />
-        <Nav />
-        <iframe src="normal-tree.html" frameborder="0" width="320" height="260"/>
-        <Footer />
-      </div>
-    );
+const mapDispatchToProps = (dispatch) => {
+  return {
   }
-}
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Main)
