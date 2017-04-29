@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export default class Nav extends React.Component {
   render() {
@@ -11,30 +12,30 @@ export default class Nav extends React.Component {
       <nav class="narrow container">
         <div class="ts icon menu">
           <button class="ts circular large icon button">
-            <a href="profile.html">
+            <Link to="/profile">
               <i class="Cube icon">{cube_icon}</i>
-            </a>
+            </Link>
           </button>
           <button class="ts circular large icon button">
-            <a href="photo.html">
+            <Link to="/photo">
               <i class="Unhide icon">{unhide_icon}</i>
-            </a>
+            </Link>
           </button>
           <button class="ts circular large icon button">
-            <a href="rank.html">
+            <Link to="/rank">
               <i class="Flag Checkered icon">{flag_icon}</i>
-            </a>
+            </Link>
           </button>
           <button class="ts circular large icon button">
-            <a href="donation.html">
+            <Link to="/donation">
               <i class="Dollar icon">{dollar_icon}</i>
-            </a>
+            </Link>
           </button>
           <div class="right menu">
             <button class="ts circular large icon button">
-              <a href="tasks.html">
+              <Link to="tasks">
                 <i class="Lightning icon">{lightning_icon}</i>
-              </a>
+              </Link>
             </button>
           </div>
         </div>
