@@ -9,81 +9,51 @@ export default class Sample extends React.Component {
         <div class="ts card">
           <div class="image">
             <Link to="/analysis">
-              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+              <img src="/img/p0.jpg" />
             </Link>
           </div>
           <div class="content">
-            <a class="description">Karen</a>
+            <a class="description">Ivy</a>
           </div>
         </div>
         <div class="ts card">
           <div class="image">
             <Link to="/analysis">
-              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+              <img src="/img/p2.jpg" />
             </Link>
           </div>
           <div class="content">
-            <a class="description">Caris</a>
+            <a class="description">Apple Snail</a>
           </div>
         </div>
         <div class="ts card">
           <div class="image">
             <Link to="/analysis">
-              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+              <img src="/img/p4.jpg" />
             </Link>
           </div>
           <div class="content">
-            <a class="description">erium</a>
+            <a class="description">Mile-a-minute Weed</a>
           </div>
         </div>
         <div class="ts card">
           <div class="image">
             <Link to="/analysis">
-              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+              <img src="/img/p3.jpg" />
             </Link>
           </div>
           <div class="content">
-            <a class="description">Natsuki</a>
+            <a class="description">Apple Snail</a>
           </div>
         </div>
         <div class="ts card">
           <div class="image">
             <Link to="/analysis">
-              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+              <img src="/img/p2.jpg" />
             </Link>
           </div>
           <div class="content">
-            <a class="description">Avane</a>
-          </div>
-        </div>
-        <div class="ts card">
-          <div class="image">
-            <Link to="/analysis">
-              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
-            </Link>
-          </div>
-          <div class="content">
-            <a class="description">Eneko</a>
-          </div>
-        </div>
-        <div class="ts card">
-          <div class="image">
-            <Link to="/analysis">
-              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
-            </Link>
-          </div>
-          <div class="content">
-            <a class="description">Iknore</a>
-          </div>
-        </div>
-        <div class="ts card">
-          <div class="image">
-            <Link to="/analysis">
-              <img src="https://tocas-ui.com/assets/img/15d7510.png" />
-            </Link>
-          </div>
-          <div class="content">
-            <a class="description">Aira</a>
+            <a class="description">Apple Snail</a>
           </div>
         </div>
       </div>

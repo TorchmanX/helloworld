@@ -16,17 +16,17 @@ export default class Table extends React.Component {
           <tbody>
             <tr>
               <td>1</td>
-              <td>Chi Tien Yei</td>
-              <td>50,000 pts</td>
+              <td>Minions Dave</td>
+              <td>80,000 pts</td>
             </tr> 
             <tr class="error">
               <td>2</td>
               <td>Honda Yei</td>
-              <td>40,000 pts</td>
+              <td>50,000 pts</td>
             </tr> 
             <tr>
               <td>3</td>
-              <td>Yao Cheng Yei</td>
+              <td>Gulu</td>
               <td>30 pts</td>
             </tr> 
           </tbody>

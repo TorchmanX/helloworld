@@ -6,6 +6,8 @@ import Nav from './Nav';
 import Camera from './Camera';
 import Footer from '../Core/Footer';
 
+import { Link } from 'react-router-dom';
+
 export default class Photo extends React.Component {
   constructor() {
     super();
@@ -17,7 +19,9 @@ export default class Photo extends React.Component {
         <Header />
         <Nav />
         <div class="ts fitted hidden divider"></div>
-        <Camera />
+        <div class="content">
+          <Link to="/followed"><img src="/img/take.gif" width="100%"/></Link>
+        </div>
         <Footer />
       </div>
     );

@@ -18,10 +18,17 @@ export default class Photo extends React.Component {
       <div>
         <Header />
         <Nav />
+        <div class="content">
+          <img src="/img/dist1.jpg" width="100%" />
+        </div>
         <div class="ts fitted hidden divider"></div>
-        <LineChart />
+        <div class="content">
+          <img src="/img/chart1.png" width="100%" />
+        </div>
         <div class="ts fitted divider"></div>
-        <RaderChart />
+        <div class="content">
+          <img src="/img/chart2.png" width="100%" />
+        </div>
         <div class="ts fitted divider"></div>
         <ReasonCard />
         <Footer />

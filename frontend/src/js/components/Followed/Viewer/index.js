@@ -14,15 +14,13 @@ export default class Viewer extends React.Component {
             </Link>
           </button>
           <a class="image" href="#!">
-            <img src="https://tocas-ui.com/assets/img/15d7510.png" />
+            <img src="/img/p0.jpg" />
           </a>
           <div class="center aligned Content">
             <a class="header" href="#!">50 pts</a>
           </div>
           <div class="center aligned description">
-            the quick brown fox jumps over the lazy dog
-            the quick brown fox jumps over the lazy dog
-            the quick brown fox jumps over the lazy dog
+            ENGLISH IVY
           </div>
         </div>
       </div>

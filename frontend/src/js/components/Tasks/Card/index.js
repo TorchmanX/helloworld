@@ -10,13 +10,13 @@ export default class Card extends React.Component {
         <a class="ts card">
           <div class="content">
             <div class="header">
-              Golden Apple Snail!!!!
+              Stop Ivy Hanging!
               <button class="ts circular basic mini very compact icon button">
                 100pts
               </button>
             </div>
             <div class="meta">
-              <div>Taipei</div>
+              <div>@Mt Elephant, Taipei</div>
             </div>
           </div>
           <div class="symbol">
@@ -26,13 +26,13 @@ export default class Card extends React.Component {
         <a class="ts card">
           <div class="content">
             <div class="header">
-              Golden Apple Snail!!!!
+              Collect Golden Apple Snail!!!
               <button class="ts circular basic mini very compact icon button">
                 50pts
               </button>
             </div>
             <div class="meta">
-              <div>Taipei</div>
+              <div>@Guandu, Taipei</div>
             </div>
           </div>
           <div class="symbol">
