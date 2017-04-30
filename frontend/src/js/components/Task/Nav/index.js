@@ -13,7 +13,7 @@ export default class Nav extends React.Component {
           </a>
           <div class="right menu">
             <button class="ts circular large icon button">
-              <Link to="tasks.html">
+              <Link to="tasks">
                 <i class="Arrow Left icon">{arrow_left_icon}</i>
               </Link>
             </button>
